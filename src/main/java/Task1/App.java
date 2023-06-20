@@ -3,7 +3,7 @@ package Task1;
 import java.util.Scanner;
 
 public class App {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args){
         System.out.println("Input number");
         Scanner in = new Scanner(System.in);
         try {
