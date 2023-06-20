@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class App {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args){
         System.out.println("Input array size");
         Scanner in = new Scanner(System.in);
         int arraySize = in.nextInt();
@@ -18,7 +18,6 @@ public class App {
         for (int i : array) { //show array
             System.out.print(i + " ");
         }
-
         for (int i = 0; i < array.length; i++) { //show array which divided 3
             if (array[i] % 3 == 0) {
                 System.out.printf("\n%s %d %s %d ", "Element", i, "is divided 3 = ", array[i]);
